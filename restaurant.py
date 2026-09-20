@@ -36,37 +36,43 @@ st.markdown("""
 
 with col1:
     c1 = st.number_input("sandwich while queso", 
-    min_value=0, step=1,)
+    min_value=0, max_value=10, value=0)
+    st.image("imagenes/sanques.png",width=200)
     st.title("$50")
     st.write("Un sanwis de quesito derretido bien rico...")
 
 with col2:
     c2 = st.number_input("def nachos(carnita)",
     min_value=0,max_value=10,value=0)
+    st.image("imagenes/defna.png",width=200)
     st.title("$65")
     st.write("Unos nachos con queso, crema, frijoles y carnita")
 
 with col3:
     c3 = st.number_input("Waffle Input",
     min_value=0,max_value=10,value=0)
+    st.image("imagenes/wn.png",width=200)
     st.title("$60")
     st.write("Un Waffle con nutella, mermelada, lechera o maní")
 
 with col4:
     c4 = st.number_input("for peperoni in waffle",
     min_value=0,max_value=10,value=0)
+    st.image("imagenes/wp.png",width=200)
     st.title("$65")
     st.write("Los clasicos Wafflepizzas de Ludus (Los extraño tanto como a ella)")
 
 with col5:
     c5 = st.number_input("Nieve.append(s)",
     min_value=0,max_value=10,value=0)
+    st.image("imagenes/naps.png",width=200)
     st.title("$30")
     st.write("3 bolas de nieve en un vasito, sabor vainilla, chocolate o fresa")
 
 with col6:
     c6 = st.number_input("Pal or Mitas",
     min_value=0,max_value=10,value=0)
+    st.image("imagenes/pora.png",width=200)
     st.title("$40")
     st.write("Solo traduce 'or' y veras que es")
 
