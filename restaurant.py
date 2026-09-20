@@ -1,7 +1,7 @@
 #<imports, listas y variables previas al programa>
-import streamlit as st
-import random as rd
-from datetime import datetime
+import streamlit as st #para interfaz
+import random as rd #codigo al azar
+from datetime import datetime #para la fecha
 
 if "ordenado" not in st.session_state:
     st.session_state.ordenado = False
