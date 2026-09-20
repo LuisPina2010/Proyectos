@@ -148,7 +148,7 @@ if st.session_state.ordenado and (c1+c2+c3+c4+c5+c6)>=1:
             st.write("Solo coloca digitos por favor")
             
         else:
-            ticket+=  f" TARJETA: {tarjeta[0]}{tarjeta[1]}{tarjeta[2]}{tarjeta[3]}************\n"
+            ticket+=  f" ************TARJETA: {tarjeta[12]}{tarjeta[13]}{tarjeta[14]}{tarjeta[15]}\n"
             ticket+=     f"==========================================\n"
             st.write("El pago fue aceptado con exito")
             st.write(f"Total: ${total}//MXN")
