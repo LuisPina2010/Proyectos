@@ -39,7 +39,7 @@ with col1:
     min_value=0, max_value=10, value=0)
     st.image("imagenes/sanques.png",width=200)
     st.title("$50")
-    st.write("Un sanwis de quesito derretido bien rico...")
+    st.write("Un sandwich de quesito derretido bien rico...")
 
 with col2:
     c2 = st.number_input("def nachos(carnita)",
@@ -116,7 +116,7 @@ if st.session_state.ordenado and (c1+c2+c3+c4+c5+c6)>=1:
         ticket+=    f"    Pal or Mitas            $   {c6*40}//MXN\n"
     ticket+=         "------------------------------------------\n"
     ticket+=     f"SUBTOTAL:                   $   {total}//MXN\n"
-    ticket+=     f"     IVA:                   $   {total_iva}//MXN\n"
+    ticket+=     f"IVA(16%):                   $   {total_iva}//MXN\n"
     ticket+=     f"   TOTAL:                   $   {total2}//MXN\n"
     if metodo == "Efectivo":
         st.write("Bien, toma, este es tu codigo de verificacion," \
