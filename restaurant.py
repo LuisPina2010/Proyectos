@@ -30,9 +30,6 @@ st.markdown("""
     }
     </style>
 """, unsafe_allow_html=True)
-#alc se lo pedi a una ia pa hacerlo, casi no se css, 
-#pero ya le entendi a todo lol
-
 #<imports, listas y variables previas al programa>
 
 #<MAIN>
