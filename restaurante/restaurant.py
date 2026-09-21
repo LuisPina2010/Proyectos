@@ -91,6 +91,7 @@ total2 = total + total_iva
 if st.session_state.ordenado and (c1+c2+c3+c4+c5+c6)==0:
     st.write("No puedes ordenar nada lol, ordena algo anda :3")
 if st.session_state.ordenado and (c1+c2+c3+c4+c5+c6)>=1:
+    st.balloons()
     st.write("Cual sera tu metodo de pago?")
     metodo = st.selectbox("Pago: ",pagos)
     ticket =     "##########################################\n"
